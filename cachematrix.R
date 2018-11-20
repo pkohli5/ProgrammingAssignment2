@@ -1,6 +1,6 @@
-## Pair of functions to catche the inverse of a square matrix
-## Given that the matrix supplied is invertible, hence 
-## no check is required
+## Pair of functions to cache the inverse of a square matrix
+## Given that the matrix supplied is invertible, 
+## hence no check included for invertibility
 ## Written by: P. Kohli
 ## 11/20/2018
 ## R Programming Coursera Assignment week-3
@@ -24,8 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function2: cacheSolve function returns the inverse of the matrix 'x' 
-## object returned by makeCacheMatrix function and if the inverse already 
+## Function2: cacheSolve function returns the inverse of the matrix  
+## object 'x' returned by makeCacheMatrix function and if the inverse already 
 ## exists, then cacheSolve function simply retrieves the inverse from the cache
 
 cacheSolve <- function(x, ...) {
